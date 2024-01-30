@@ -107,6 +107,8 @@ footer p {
   transform: scaleX(1);
 }
 
+/* HAMBURGER BUTTON */
+
 .hamburger-btn {
   display: none;
   flex-direction: column;
