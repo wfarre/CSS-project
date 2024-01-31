@@ -146,6 +146,7 @@ footer p {
   opacity: 0;
 }
 
+
 @media all and (max-width: 600px) {
   .hamburger-btn {
     display: flex;
