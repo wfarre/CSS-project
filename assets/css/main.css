@@ -34,13 +34,13 @@ html {
 }
 
 .header,
-footer,
+.footer,
 .products-intro-box {
   background-color: var(--color-primary);
   color: var(--white);
 }
 
-footer {
+.footer {
   width: 100vw;
   margin-top: 55px;
   padding: 1.25rem 0;
@@ -240,6 +240,7 @@ footer {
 
 .card-main .feature {
   font-size: var(--text-size);
+  font-weight: 400;
 }
 
 .card .icon-wrapper {
