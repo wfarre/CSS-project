@@ -19,11 +19,12 @@
 
             <input class="menu" type="checkbox" name="menu" id="menu">
 
-            <label for="menu" class="hamburger-btn">
+            <div class="hamburger-btn">
+                <label for="menu" class="menu-label"></label>
                 <div class="bar bar-1"></div>
                 <div class="bar bar-2"></div>
                 <div class="bar bar-3"></div>
-            </label>
+            </div>
 
             <ul class="nav">
                 <li class="nav-item">
@@ -45,21 +46,21 @@
     <main>
         <!-- Section - introduction to products -->
         <section class="products-intro-box">
-        <div>
             <div>
-                <h1>Shampoo by Thoréal</h1>
+                <div>
+                    <h1>Shampoo by Thoréal</h1>
+                </div>
+                <div>
+                    <h2>
+                        The best shampoo in the country is made by us
+                    </h2>
+                    <p>See all our's offers below</p>
+                </div>
             </div>
-            <div>
-                <h2>
-                    The best shampoo in the country is made by us
-                </h2>
-                <p>See all our's offers below</p>
-            </div>
-        </div>
 
-        <div class="products-image-box">
-            <img src="../assets/images/shampooForProduct.jpg" alt="A shampoo image">
-        </div>
+            <div class="products-image-box">
+                <img src="../assets/images/shampooForProduct.jpg" alt="A shampoo image">
+            </div>
 
         </section>
 
@@ -70,13 +71,13 @@
                     <div class="products-card-title">
                         <p>Thoréal plus</p>
                     </div>
-                    
+
                     <div class="products-card-img-box">
 
                         <div class="products-card-description-box">
                             <p>Product description</p>
                         </div>
-    
+
                         <img src="../assets/images/shampooForProduct.jpg" alt="Image of a shampoo">
 
                     </div>
@@ -90,13 +91,13 @@
                     <div class="products-card-title">
                         <p>Thoréal plus +</p>
                     </div>
-                    
+
                     <div class="products-card-img-box">
 
                         <div class="products-card-description-box">
                             <p>Product description</p>
                         </div>
-    
+
                         <img src="../assets/images/shampooForProduct.jpg" alt="Image of a shampoo">
 
                     </div>
@@ -110,13 +111,13 @@
                     <div class="products-card-title">
                         <p>Thoréal plus ++</p>
                     </div>
-                    
+
                     <div class="products-card-img-box">
 
                         <div class="products-card-description-box">
                             <p>Product description</p>
                         </div>
-    
+
                         <img src="../assets/images/shampooForProduct.jpg" alt="Image of a shampoo">
 
                     </div>
@@ -127,7 +128,28 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="./index.html">Thoréal</a>
+            </div>
+
+            <ul class="nav">
+                <li class="nav-item current">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./product.html">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
         <p>Copyright ©</p>
     </footer>
 
