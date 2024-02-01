@@ -419,7 +419,7 @@ p {
 
 .products-card-img-box img {
   width: 50%;
-  border: 1px solid --blue;
+  border: 1px solid var(--blue);
   border-radius: 3em;
 }
 
