@@ -28,7 +28,6 @@
 }
 
 html {
-  font-size: 18px;
   font-family: "Roboto", sans-serif;
   color: var(--color-primary);
 }
@@ -160,6 +159,7 @@ html {
 }
 
 .menu-label {
+  cursor: pointer;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -424,16 +424,8 @@ p {
   border-radius: 3em;
 }
 
-.products-card-btn {
-  margin-top: 0.7rem;
-  padding: 0.3em 1em;
-  border-radius: 3em;
-  background-color: var(--blue);
-  border: 1px solid #1f2937;
-}
-
-.products-card-btn:hover {
-  background-color: #3881f6ac;
+.products-card-btn{
+  margin-top: 5rem;
 }
 
 @media (max-width: 768px) {
@@ -474,6 +466,10 @@ p {
     flex-direction: column-reverse;
 
     align-items: center;
+  }
+
+  .products-card-description-box{
+    margin-bottom: 1rem;
   }
 
   .hero .title {
