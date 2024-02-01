@@ -18,11 +18,12 @@
 
             <input class="menu" type="checkbox" name="menu" id="menu">
 
-            <label for="menu" class="hamburger-btn">
+            <div class="hamburger-btn">
+                <label for="menu" class="menu-label"></label>
                 <div class="bar bar-1"></div>
                 <div class="bar bar-2"></div>
                 <div class="bar bar-3"></div>
-            </label>
+            </div>
 
             <ul class="nav">
                 <li class="nav-item current">
@@ -39,13 +40,145 @@
                 </li>
             </ul>
         </nav>
+
+        <div class="hero">
+            <div class="container">
+                <div class="contents">
+                    <h1 class="title">
+                        Used by the Gods, made it Thoréal
+                    </h1>
+                    <p class="description">
+                        Our shampoo has been used for millenium by Asgardians, and we finally made it accessible for
+                        mortals.
+                    </p>
+                    <a class="btn" href="./pages/product.html">Buy now</a>
+                </div>
+                <div class="image-wrapper">
+                    <img src="./assets/images/homepage/thor-picture.png" alt="">
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
 
+        <section class="section section-features">
+            <header class="section-header">
+                <h2 class="title">Our features</h2>
+            </header>
+
+            <div class="section-main">
+                <div class="container">
+
+                    <div class="card card-heart">
+                        <div class="card-header">
+                            <div class="icon-wrapper">
+                                <img src="./assets/images/homepage/heart-solid.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="card-main">
+                            <p>Bring Love to your hair.</p>
+                        </div>
+                    </div>
+
+                    <div class="card card-health">
+                        <div class="card-header">
+                            <div class="icon-wrapper">
+                                <img src="./assets/images/homepage/dumbbell-solid.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="card-main">
+                            <p>Make your hair stronger.</p>
+                        </div>
+                    </div>
+
+                    <div class="card card-bolt">
+                        <div class="card-header">
+                            <div class="icon-wrapper">
+                                <img src="./assets/images/homepage/bolt-lightning-solid.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="card-main">
+                            <p>Make you more resistant to thunder.</p>
+                        </div>
+                    </div>
+
+                    <div class="card card-hammer">
+                        <div class="card-header">
+                            <div class="icon-wrapper">
+                                <img src="./assets/images/homepage/gavel-solid.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="card-main">
+                            <p>Might help you to make you worth Mjolnir.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section section-gray">
+            <header hidden class="section-header">
+                <h2 class="title">Reviews</h2>
+            </header>
+
+            <div class="section-main">
+                <p class="quote">
+                    I hate to admit it but the shampoo of my brother is real good stuff. It makes my hair softer and
+                    more
+                    resistant. However, I still can’t use Myolnir...
+                </p>
+                <p class="author">-Loki</p>
+            </div>
+        </section>
+
+        <section class="section section-cta">
+
+            <div class="section-main">
+
+                <div class="container">
+                    <div class="text-wrapper">
+                        <h3 class="title">Don’t let someone else steal your thunder !</h3>
+                        <p class="description">
+                            Be the first to get your holy shampoo!
+                        </p>
+                    </div>
+                    <div class="button-wrapper">
+                        <a class="btn btn-transparent" href="./pages/product.html">Buy now!</a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
-    <footer>
+    <footer class="footer">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="./index.html">Thoréal</a>
+            </div>
+
+            <ul class="nav">
+                <li class="nav-item current">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./pages/product.html">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./pages/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./pages/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
         <p>Copyright ©</p>
     </footer>
 
