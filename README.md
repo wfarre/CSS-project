@@ -3,7 +3,7 @@
 <h2 align="center">Hi 👋, welcome to our repository!</h2>
 <div style="display: flex; align-items: center;">
   <section>
-    <p>🔭 Visit the [official website](https://wfarre.github.io/CSS-project/index.html) to see our work! </p>
+    <p>🔭 Visit the https://wfarre.github.io/CSS-project/index.html to see our work! </p>
   </section>
   <ul>
       <p>Made by:</p>
