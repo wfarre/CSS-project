@@ -5,11 +5,16 @@
   <section>
     <p>🔭 Visit the https://wfarre.github.io/CSS-project/index.html to see our work! </p>
   </section>
-  <ul>
-      <p>Made by:</p>
-      <li>William Farre</li>
-      <li>Daniel Schiraldi</li>
-      <li>Shaxzod Batirjonov</li>
-      <li>Lucia Mackova</li>
-  </ul>
+  <section>
+    <p>This project was done with vanilla HTML and CSS.</p>
+  </section>
+  <section>
+    <ul>
+        <p>Made by:</p>
+        <li>William Farre</li>
+        <li>Daniel Schiraldi</li>
+        <li>Shaxzod Batirjonov</li>
+        <li>Lucia Mackova</li>
+    </ul>
+  </section>
 </div>
