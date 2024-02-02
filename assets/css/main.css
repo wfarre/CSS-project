@@ -212,7 +212,7 @@ footer p {
   margin: auto;
 }
 
-.card {
+.card-about {
   display: flex;
   max-width: 100%; /* Set maximum width to the container width */
   box-sizing: border-box; /* Include padding and border in the total width */
