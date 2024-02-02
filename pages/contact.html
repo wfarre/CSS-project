@@ -41,68 +41,55 @@
           </li>
         </ul>
       </nav>
+      <div class="overlay">
+        <h2 class="overlay-heading">Thoréal</h2>
+      </div>
     </header>
 
     <main>
-      <div class="overlay">
-        <h2 class="overlay-heading">Contact Us</h2>
-        <div class="overlay-text">
-          <p class="overlay-item"><a href="../index.html">Home</a></p>
-          <p class="overlay-item">></p>
-          <p class="overlay-item">Contact Us</p>
-        </div>
-      </div>
       <section class="contact-us">
-        <div class="container">
+        <div class="container-contact">
           <div class="inner">
             <div class="contact-us-form">
               <h2>Contact With Us</h2>
               <p>If you have any questions please feel free to contact us.</p>
-              <form class="form" method="post">
+              <form class="form">
                 <div class="row">
-                  <div>
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        name="name"
-                        placeholder="Name"
-                        required=""
-                      />
-                    </div>
+                  <div class="form-group">
+                    <label for="name">Name</label><br />
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="John Wick"
+                      required
+                    />
                   </div>
-                  <div>
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        name="email"
-                        placeholder="Email"
-                        required=""
-                      />
-                    </div>
+                  <div class="form-group">
+                    <label for="email">Email</label><br />
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="info@example.com"
+                      required
+                    />
                   </div>
-                  <div>
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        name="phone"
-                        placeholder="Phone"
-                        required=""
-                      />
-                    </div>
+                  <div class="form-group">
+                    <label for="phone">Phone</label><br />
+                    <input
+                      type="text"
+                      name="phone"
+                      placeholder="+(33) 333 33 33"
+                    />
                   </div>
-                  <div>
-                    <div class="form-group">
-                      <textarea
-                        name="message"
-                        placeholder="Your Message"
-                        required=""
-                      ></textarea>
-                    </div>
+                  <div class="form-group">
+                    <label for="phone">Message</label><br />
+                    <textarea
+                      name="message"
+                      placeholder="That is the best website i have ever seen..."
+                    ></textarea>
                   </div>
-                  <div>
-                    <div class="form-group login-btn">
-                      <button class="btn" type="submit">Send</button>
-                    </div>
+                  <div class="form-group login-btn">
+                    <button class="btn" type="submit">Send</button>
                   </div>
                 </div>
               </form>

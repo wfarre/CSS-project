@@ -109,26 +109,21 @@ footer p {
 
 /*Start Contact Us CSS*/
 
-.container {
+.container-contact {
   padding: 20px var(--padding-lr-desktop);
 }
 .overlay {
-  padding: 100px;
+  padding: 120px;
   background-color: var(--color-primary);
   background-image: url("../images/shampoo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-top: 1px solid black;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-}
-.overlay-text {
-  padding: 20px;
   display: flex;
   justify-content: center;
-  color: var(--white);
 }
+
 .overlay-text a {
   text-decoration: none;
   color: var(--white);
@@ -136,9 +131,18 @@ footer p {
 .overlay-heading {
   text-align: center;
   color: var(--white);
-  font-size: 38px;
+  padding: 40px 0;
   margin: 0;
+  font-size: 4.2vw;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+  mix-blend-mode: screen;
+  background-color: aliceblue;
+  width: 60%;
+  border-radius: 16px;
+  z-index: 1000;
+  opacity: 0.7;
 }
 .overlay-item {
   padding: 0 10px;
@@ -194,12 +198,16 @@ footer p {
   width: 96%;
   height: 50px;
   border: 1px solid #eee;
-  text-transform: capitalize;
   padding: 0px 18px;
   color: #555;
   font-size: 14px;
   font-weight: 400;
   border-radius: 4px;
+}
+.contact-us .form .form-group label {
+  color: var(--black);
+  font-size: 18px;
+  font-weight: 600;
 }
 .contact-us .form .form-group textarea {
   width: 96%;
