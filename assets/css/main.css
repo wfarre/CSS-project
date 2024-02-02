@@ -783,7 +783,9 @@ html {
 
 @media (max-width: 768px) {
   .overlay-heading {
-    width: 100%;
+    width: 200%;
+    padding: 40px 60px;
+    font-size: 10.2vw;
   }
   .contact-us .contact-info {
     flex-direction: column;
@@ -802,6 +804,8 @@ html {
 @media (min-width: 769px) and (max-width: 1024px) {
   .overlay-heading {
     width: 80%;
+    padding: 40px 60px;
+    font-size: 10.2vw;
   }
   .contact-us .contact-info {
     flex-direction: row;
