@@ -656,18 +656,26 @@ html {
   align-items: center;
   margin: auto;
   padding: 20px;
-  box-shadow: 5px 7px 29px 0px;
-  -webkit-box-shadow: 5px 7px 29px 0;
+  box-shadow: 5px 7px 29px 0px #bfbfbf;
+  -webkit-box-shadow: 5px 7px 29px 0px #bfbfbf ;
   border-radius: 10px;
   margin-bottom: 30px;
+}
+
+@media (max-width:700px){
+  .card-about{
+    flex-direction: column;
+  }
 }
 
 .image-card {
   object-fit: fill;
   margin: 10px;
   border-radius: 25px;
-  max-width: 100%;
-  margin: 1rem;
+  width: 100%;
+  max-width: 300px;
+  height:auto;
+  margin:1rem;
 }
 
 .text-card {
