@@ -185,3 +185,7 @@ footer p {
     transform: scaleX(1);
   }
 }
+
+.container-about{
+  display:flex;
+}
