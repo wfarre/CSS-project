@@ -223,12 +223,12 @@ html {
 
 /* CARD */
 
-.card {
+.card-feature {
   width: 160px;
   text-align: center;
 }
 
-.card:hover .icon-wrapper {
+.card-feature:hover .icon-wrapper {
   transform: scale(1.1);
 }
 
@@ -243,7 +243,7 @@ html {
   font-weight: 400;
 }
 
-.card .icon-wrapper {
+.card-feature .icon-wrapper {
   position: relative;
   display: flex;
   align-items: center;
@@ -254,7 +254,7 @@ html {
   transition: transform 300ms;
 }
 
-.card .icon-wrapper img {
+.card-feature .icon-wrapper img {
   height: 80px;
   width: 80px;
 }
@@ -376,7 +376,7 @@ html {
 }
 
 .products-intro-box h2,
-p {
+.products-intro-box p {
   padding: 0.5rem;
 
   font-size: var(--header);
@@ -397,21 +397,20 @@ p {
   padding: 3em 0.2rem;
 }
 
-
 .products-card-box {
   padding: 1rem;
   margin: 1rem;
-  
+
   border-radius: 1.2em;
-  
+
   box-shadow: 5px 7px 29px 0px rgba(0, 0, 0, 0.51);
   -webkit-box-shadow: 5px 7px 29px 0px rgba(0, 0, 0, 0.51);
   -moz-box-shadow: 5px 7px 29px 0px rgba(0, 0, 0, 0.51);
 }
 
-.products-card-box:hover{
+.products-card-box:hover {
   transform: scale(1.01);
-  transition:  transform 0.5s;
+  transition: transform 0.5s;
 }
 
 .products-card-description-box p {
@@ -430,7 +429,7 @@ p {
   border-radius: 3em;
 }
 
-.products-card-btn{
+.products-card-btn {
   margin-top: 5rem;
 }
 
@@ -474,7 +473,7 @@ p {
     align-items: center;
   }
 
-  .products-card-description-box{
+  .products-card-description-box {
     margin-bottom: 1rem;
   }
 
@@ -550,25 +549,25 @@ p {
   }
 }
 
-.quote-about{
-  display:flex;
+.quote-about {
+  display: flex;
   justify-content: center;
-  align-items: center;    
-  height:250px;
-  margin-top: 0px;  
+  align-items: center;
+  height: 250px;
+  margin-top: 0px;
 }
 
-.quote-text{
+.quote-text {
   font-size: 36px;
   width: 100%;
   text-align: center;
   padding: 50px;
-  font-style:italic;
-  color:#1f2937;
-  background-color:#e5e7eb ;
+  font-style: italic;
+  color: #1f2937;
+  background-color: #e5e7eb;
 }
 
-.container-about{  
+.container-about {
   display: flex;
   min-height: 100vh;
   max-width: 1000px;
@@ -578,21 +577,21 @@ p {
   margin: auto;
 }
 
-.card{ 
+.card {
   display: flex;
   width: 800px;
   align-items: center;
-  margin:auto;
-  padding:20px;       
+  margin: auto;
+  padding: 20px;
 }
 
-.image-card{
+.image-card {
   object-fit: fill;
-  margin:10px;
+  margin: 10px;
   border-radius: 25px;
 }
 
-.text-card{
-  margin:10px;
-  text-align:justify ;
+.text-card {
+  margin: 10px;
+  text-align: justify;
 }
