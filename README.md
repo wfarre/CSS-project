@@ -1,5 +1,6 @@
+![Team 2 Project Banner](https://github.com/wfarre/CSS-project/blob/main/project_banner.png)
 <h1 style= display: flex; justify-content: center; align-items: center;>Front-end Developer course by Kreativestorm</h1>
-<h3 align="left">Thoreal, Used by Gods</h3>
+<h2 align="center">Hi 👋, welcome to our repository!</h2>
 <div style="display: flex; align-items: center;">
   <section>
     <p>🔭 Visit the [official website](https://wfarre.github.io/CSS-project/index.html) to see our work! </p>
