@@ -1,54 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Thoréal - Contact</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header class="header">
-        <nav class="navbar">
-            <div class="logo">
-                <a href="../index.html">Thoréal</a>
-            </div>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="../index.html">Thoréal</a>
+        </div>
 
-            <input class="menu" type="checkbox" name="menu" id="menu">
+        <input class="menu" type="checkbox" name="menu" id="menu" />
 
-            <label for="menu" class="hamburger-btn">
-                <div class="bar bar-1"></div>
-                <div class="bar bar-2"></div>
-                <div class="bar bar-3"></div>
-            </label>
+        <label for="menu" class="hamburger-btn">
+          <div class="bar bar-1"></div>
+          <div class="bar bar-2"></div>
+          <div class="bar bar-3"></div>
+        </label>
 
-            <ul class="nav">
-                <li class="nav-item">
-                    <a href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./product.html">Product</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./about.html">About</a>
-                </li>
-                <li class="nav-item current">
-                    <a href="./contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about.html">About</a>
+          </li>
+          <li class="nav-item current">
+            <a href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="overlay">
+        <h2 class="overlay-heading">Thoréal</h2>
+      </div>
     </header>
 
     <main>
+      <section class="contact-us">
+        <div class="container-contact">
+          <div class="inner">
+            <div class="contact-us-form">
+              <h2>Contact With Us</h2>
+              <p>If you have any questions please feel free to contact us.</p>
+              <form class="form">
+                <div class="row">
+                  <div class="form-group">
+                    <label for="name">Name</label><br />
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="John Wick"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label><br />
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="info@example.com"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Phone</label><br />
+                    <input
+                      type="text"
+                      name="phone"
+                      placeholder="+(33) 333 33 33"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Message</label><br />
+                    <textarea
+                      name="message"
+                      placeholder="That is the best website i have ever seen..."
+                    ></textarea>
+                  </div>
+                  <div class="form-group login-btn">
+                    <button class="btn" type="submit">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-us-left">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3070.678193189228!2d66.9327740757891!3d39.67945297156765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDQwJzQ2LjAiTiA2NsKwNTYnMDcuMyJF!5e0!3m2!1sen!2s!4v1704817904306!5m2!1sen!2s"
+                width="1000px"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
 
+          <div class="contact-info">
+            <div class="single-info">
+              <i class="fa-solid fa-phone"></i>
+              <div class="content">
+                <h3>+(333) 333 33 33</h3>
+                <p>info@company.com</p>
+              </div>
+            </div>
+            <div class="single-info">
+              <i class="fa-solid fa-location-dot"></i>
+              <div class="content">
+                <h3>Thoréal Center</h3>
+                <p>Rudakiy 100</p>
+              </div>
+            </div>
+            <div class="single-info">
+              <i class="fa-solid fa-clock"></i>
+              <div class="content">
+                <h3>Mon - Sat: 8am - 5pm</h3>
+                <p>Sunday Closed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p>Copyright ©</p>
+      <p>Copyright ©</p>
     </footer>
-
-</body>
-
+  </body>
 </html>
