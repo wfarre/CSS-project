@@ -184,10 +184,16 @@ html {
 .hero {
   padding: 0 var(--padding-lr-desktop);
   padding-right: 0;
+  background-color: var(--color-primary);
+  color: var(--white);
 }
 
 .hero .title {
   font-size: var(--header-xl);
+}
+
+.section-cta .title {
+  font-size: var(--text-size);
 }
 
 .hero .container {
@@ -230,12 +236,6 @@ html {
   transform: scale(1.1);
 }
 
-.card-header {
-  background-color: #fd8484;
-  border-radius: 16px;
-  margin-bottom: 12px;
-}
-
 .card-main .feature {
   font-size: var(--text-size);
   font-weight: 400;
@@ -248,7 +248,9 @@ html {
   justify-content: center;
   height: 160px;
   width: 160px;
+  margin-bottom: 12px;
   border-radius: 16px;
+  overflow: hidden;
   transition: transform 300ms;
 }
 
@@ -285,7 +287,7 @@ html {
   padding: 0 calc((100 / 1440) * 100vw);
 }
 
-.section-header .title {
+.title {
   font-size: var(--text-xl);
 }
 
