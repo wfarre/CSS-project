@@ -445,16 +445,13 @@ html {
   margin: 1.8rem 0 1.2rem ;
 }
 
-@media (max-width: 1250px) {
-  /* products page */
+@media (max-width: 1050px) {
+  /* Products page */
   .section-products-cards{
     display: block;
     padding: 3.5rem 5rem;
   }
-}
-
-@media (max-width: 1050px) {
-  /* Products page */
+  
   .products-intro-box {
     text-align: center;
     align-items: center;
