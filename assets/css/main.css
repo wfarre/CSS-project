@@ -551,20 +551,24 @@ html {
 
 .quote-about {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 250px;
+  min-height: 200px;
   margin-top: 0px;
+  background-color: #e5e7eb;
+  margin-bottom:50px;
 }
-
 .quote-text {
   font-size: 36px;
   width: 100%;
   text-align: center;
-  padding: 50px;
+  padding: 40px 50px 25px 50px;
   font-style: italic;
-  color: #1f2937;
-  background-color: #e5e7eb;
+  color: #1f2937;  
+}
+.quote-author{
+  margin-bottom:30px;
 }
 .container-about {
   display: flex;
@@ -576,7 +580,7 @@ html {
 }
 
 .card-about {
-  display: flex;
+  display: flex;  
   max-width: 100%; 
   box-sizing: border-box; 
   align-items: center;
