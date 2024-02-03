@@ -419,7 +419,7 @@ p {
 }
 
 
-.products-card-title h2 {
+.products-card-title {
   font-size: var(--text-xl);
   margin-bottom: 2rem;
 }
@@ -569,7 +569,7 @@ p {
   }
 
   
-  .products-card-title h2 {
+  .products-card-title {
     font-size: var(--text-xl);
 
     margin-bottom: 0.2rem;
