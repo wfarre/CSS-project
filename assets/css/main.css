@@ -420,7 +420,7 @@ html {
   transition: transform 0.5s, border 0.5s;
 }
 
-.products-card-title h2 {
+.products-card-title {
   font-size: var(--text-xl);
   margin-bottom: 2rem;
 }
@@ -608,7 +608,8 @@ html {
     align-items: center;
   }
 
-  .products-card-title h2 {
+  
+  .products-card-title {
     font-size: var(--text-xl);
 
     margin-bottom: 0.2rem;
