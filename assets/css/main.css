@@ -693,6 +693,7 @@ html {
 }
 .contact-us .form .form-group {
   margin-bottom: 22px;
+  border: none;
 }
 .contact-us .form .form-group input {
   width: 100%;
@@ -779,6 +780,9 @@ html {
   height: 100%;
   width: 100%;
 }
+iframe {
+  width: 100%;
+}
 
 @media (max-width: 768px) {
   .overlay-heading {
@@ -795,9 +799,6 @@ html {
   }
   .container-contact {
     padding: 35px var(--padding-lr-mobile);
-  }
-  iframe {
-    width: 100%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -817,9 +818,6 @@ html {
 
   .container-contact {
     padding: 30px var(--padding-lr-mobile);
-  }
-  iframe {
-    width: 100%;
   }
 }
 
